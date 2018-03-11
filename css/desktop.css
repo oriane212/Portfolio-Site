@@ -1,0 +1,22 @@
+/* 926px wide and larger */
+
+@media screen and (min-width: 926px) {
+    
+    /* FEATURED SECTION */
+    /* fixed 3 column layout with margins */
+
+    .featured {
+        width: 926px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects {
+        width: 926px;
+    }
+
+    .project {
+        height: 250px;
+    }
+
+}

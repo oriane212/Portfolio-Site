@@ -1,0 +1,44 @@
+/* 700px wide and larger */
+
+@media screen and (min-width: 700px) {
+    
+    /* HEADER */
+    /* all header text on one line */
+
+    header {
+        height: 360px;
+    }
+
+    .logo {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .header-overlay {
+        top: 214px;
+    }
+
+    .header-text {
+        padding: 30px 20px;
+    }
+
+    .header-subtitle {
+        display: inline-block;
+        margin-left: 14px;
+    }
+
+    /* FEATURED SECTION */
+    /* flexible 3 column layout */
+
+    .featured {
+        width: 100%;
+        max-width: none;
+    }
+
+    .project {
+        width: 33.3%;
+        height: 200px;
+    }
+    
+}
+

@@ -1,0 +1,126 @@
+
+/* Up to 699px wide */
+/* Mobile-first responsive design */
+
+/* BODY */
+
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,1);
+    padding: 20px;
+}
+
+/* darkens any overlay, other than the header overlay, when hovered or selected */
+.overlay:not(.header-overlay):hover, 
+.overlay:not(.header-overlay):focus {
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* HEADER */
+
+header {
+    height: 260px;
+    width: 100%;
+    background: url(../img/galette.png) bottom center; /* TODO: replace with relevant image */
+    background-size: cover;
+}
+
+.header-overlay {
+    position: relative;
+    top: 107px;
+}
+
+.header-text {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.logo {
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    color: rgba(255, 177, 138, 1);
+}
+
+.header-title {
+    font-weight: 100;
+    letter-spacing: 8px;
+    display: inline-block;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 0.7em;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+/* FEATURED SECTION */
+
+.featured {
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured-heading {
+    color: rgba(152, 152, 152, 0.9);
+    font-size: 1em;
+    padding-left: 12px;
+    margin-top: 24px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.project-title {
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    text-align: right;
+    margin-bottom: 6px;
+}
+
+.project-img {
+    width: 97%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-subtitle {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+#project1 {
+    background: url(../img/eggplantNoParm.png) center; /* TODO: replace with project image */
+    background-size: cover;
+}
+
+#project2 {
+    background: url(../img/mungbean.png) center; /* TODO: replace with project image */
+    background-size: cover;
+}
+
+#project3 {
+    background: url(../img/creamyPasta.png) center; /* TODO: replace with project image */
+    background-size: cover;
+}
